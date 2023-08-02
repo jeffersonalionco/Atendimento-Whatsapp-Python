@@ -35,5 +35,6 @@ def new_message(message):
             client.reply(chat_id, f"{msg}", message_id)
 
 
+
 # aqui ficara ouvindo todas as mensagens novas
 creator.client.onMessage(new_message)

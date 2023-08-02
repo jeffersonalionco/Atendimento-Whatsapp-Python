@@ -19,6 +19,12 @@ reponder automaticamente, identificando atraves de parametros prontos. além de 
 
 # INSTALAÇÃO
 
+- Clone o projeto em alguma pasta: `git clone https://github.com/jeffersonalionco/Atendimento-Whatsapp-Python.git`
+- Entre na Pasta: `cd Atendimento-Whatsapp-Python`
+- crie a varival de ambiente: `python -m venv venv`
+- instale a biblioteca wpp_whatsapp: `pip install WPP-Whatsapp`
+- Para rodar o codigo: `python app.py`
+
 # AUTORES
 
 # OBSERVAÇÕES
