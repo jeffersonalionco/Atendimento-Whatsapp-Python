@@ -1,5 +1,9 @@
 # Atendimento Whatsapp -  WPP-WHATSAPP
 
+![Conversa com o sistema](img/print.jpg)
+
+Uma amostra de como seu sistema vai reponder depois de organizado.
+
 ---
 
 # INDICE
@@ -29,4 +33,7 @@ reponder automaticamente, identificando atraves de parametros prontos. além de 
 
 [<img loading="lazy" src="https://scontent-gru2-2.xx.fbcdn.net/v/t39.30808-6/273837211_1382505092209828_5737095710214054058_n.jpg?_nc_cat=105&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFQU7VM50Jn5INmhEMbCu80FN52wLNAvk4U3nbAs0C-ThvmrbiCSKciDh-7U3q8WGIEdt_5FFlGDQjSGvm-MLzf&_nc_ohc=usoYBlwCebQAX_V9CW2&_nc_ht=scontent-gru2-2.xx&oh=00_AfDrZyGnUxR_OmStTnfKTDsimxz0UTjHjkWT2wKtS0aSvg&oe=64CEAFA2" width=115><br><sub>Jefferson L. Alionco</sub>](https://www.linkedin.com/in/jeffersonalionco/) 
 
+AUTOR: [https://github.com/jeffersonalionco](https://github.com/jeffersonalionco)
 # OBSERVAÇÕES
+
+**Como o whatsapp não tem API open source, o risco de ser banido é indispensavel, por isso use apenas para testes e aprendizado. 
