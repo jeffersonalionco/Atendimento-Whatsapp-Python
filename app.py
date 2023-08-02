@@ -1,16 +1,39 @@
-# This is a sample Python script.
+from WPP_Whatsapp import Create
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# start client with your session name
+your_session_name = "test"
+creator = Create(session=your_session_name)
+client = creator.start()
+# Now scan Whatsapp Qrcode in browser
+
+# check state of login
+if creator.state != 'CONNECTED':
+    raise Exception(creator.state)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def new_message(message):
+    global client
+    # Escreva seu Codigo aqui
+
+    print(message)
+    msg = ('_Ola sou um Atendente do whatsapp:_'
+           '\n\n'
+           'O que posso fazer por você? *Escolha uma Opção* \n\n'
+           '0 - Sair \n'
+           '1 - Fazer Pedido\n'
+           '2 - Status do pedido \n'
+           '3 - Cadastro\n\n'
+           '_Obrigado por ser nosso cliente')
+
+    if message and not message.get("isGroupMsg"):
+        chat_id = message.get("from")
+        message_id = message.get("id")
+        if "start" in message.get("body").lower():
+
+            client.reply(chat_id, f"{msg}", message_id)
+        else:
+            client.reply(chat_id, f"{msg}", message_id)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# aqui ficara ouvindo todas as mensagens novas
+creator.client.onMessage(new_message)
