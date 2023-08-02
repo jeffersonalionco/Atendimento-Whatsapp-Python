@@ -1,12 +1,15 @@
 # Atendimento Whatsapp -  WPP-WHATSAPP
 
+---
 
 # INDICE
 
 * [INTRODUÇÃO](#introdução) - Intrução sobre o projeto, para que serve e algumas ênfases.
 * [INSTALAÇÃO](#instalação) - Como Baixar o projeto na sua maquina e Executar para uso/teste.
-* [AUTORE](#autores) - Autores que ajudaram ou auxiliam no projeto atualmente.
+* [AUTORES](#autores) - Autores que ajudaram ou auxiliam no projeto atualmente.
 * [OBSERVAÇÕES](#observações) - Caso ocorra algumas observações durante a utilizações do projeto.
+
+---
 
 # INTRODUÇÃO
 
